@@ -16,7 +16,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("../img/Green_body.jpg") no-repeat, url("../img/Green_body_2.jpg") no-repeat;
+  background: url("../img/Green_body.jpg") no-repeat, url("../img/Green_body_2.jpg") no-repeat;
   background-position: center, center;
   background-size: cover, cover;
 }
