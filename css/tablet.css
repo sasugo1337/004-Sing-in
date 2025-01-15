@@ -1,0 +1,11 @@
+section {
+  background: url("../img/Green_main.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 0.625rem 0.125rem black;
+  border-radius: 2rem;
+}
+
+.contenido {
+  width: 12.5rem;
+}
