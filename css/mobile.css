@@ -16,8 +16,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("../img/Green_body.jpg") no-repeat,
-    url("../img/Green_body_2.jpg") no-repeat;
+  background-image: url("../img/Green_body.jpg") no-repeat, url("../img/Green_body_2.jpg") no-repeat;
   background-position: center, center;
   background-size: cover, cover;
 }
@@ -32,6 +31,7 @@ section {
 }
 
 input {
+  padding: 0 0 0 2.3125rem;
   font-size: 1rem;
   margin: 0.5rem;
   display: inline-block;
@@ -43,6 +43,7 @@ input {
 }
 
 button {
+  background: transparent;
   font-size: 1.2rem;
   margin: 0.5rem;
   display: inline-block;
@@ -55,8 +56,9 @@ button {
 
 img {
   width: 8.75rem;
-  border: solid forestgreen 0.1875rem;
+  background: forestgreen;
   border-radius: 50%;
+  border: solid forestgreen 0.1875rem;
 }
 
 h1,
@@ -79,6 +81,18 @@ p {
   align-items: center;
   justify-content: center;
   margin: 1.875rem;
+}
+
+#email {
+  background: url("../img/E-mail.svg") no-repeat;
+  background-size: 1.875rem;
+  background-position: 0.3125rem;
+}
+
+#password {
+  background: url("../img/Candado.svg") no-repeat;
+  background-size: 1.875rem;
+  background-position: 0.3125rem;
 }
 
 /* .input-password::after {
